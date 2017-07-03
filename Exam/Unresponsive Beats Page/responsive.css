@@ -1,0 +1,38 @@
+@media screen and (max-width: 640px){
+    main{
+        font-size: 75%;
+        text-align: center;
+    }
+    .nav-primary{
+        display: block;
+        text-align: center;
+    }
+    .nav-item{
+        margin: 15px auto;
+    }
+    .solo-cta{
+        padding: 0.5rem 2rem;
+        border: 2px solid black;
+    }
+    .second-row{
+        display: block;
+
+    }
+    .mixr-left, .urbeats-right{
+        display: block;
+        width: 100%;
+        padding: 2rem 0;
+
+    }
+    .sr-cta{
+        padding: 0.5rem 2rem;
+        border: 2px solid white;
+    }
+    .studio-cta{
+        padding: 0.5rem 2rem;
+        border: 2px solid white;
+    }
+    .grid-gallery img{
+        max-width: 13rem;
+    }
+}

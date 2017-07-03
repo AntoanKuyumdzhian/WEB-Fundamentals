@@ -1,0 +1,174 @@
+@import url(https://fonts.googleapis.com/css?family=Kreon:400,700|Open+Sans:400,700);
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Open Sans",sans-serif;
+    font-size: 14px;
+    max-width: 1180px;
+    color: white;
+}
+
+header{
+    background: url("img/header-background.jpg") no-repeat center center;
+    background-size: cover;
+    padding: 20px;
+}
+
+header h3{
+    font-family: 'Kreon';
+    font-size: 32px;
+    font-weight: 400;
+    display: inline-block;
+    text-transform: capitalize;
+    margin: 5px;
+}
+
+nav{
+    display: inline-block;
+    line-height: 30px;
+    vertical-align: top;
+    margin: 10px 0px;
+}
+
+nav ul{
+    list-style: none;
+}
+
+nav ul li{
+    display: inline-block;
+    margin: 0px 20px;
+    padding: 2px 20px;
+    text-transform: uppercase;
+    font-weight: 700;
+    border-radius: 8px;
+}
+
+nav ul li:hover{
+    cursor: pointer;
+    background: #F4474F;
+}
+
+header h2{
+    margin-top: 250px;
+    text-transform: uppercase;
+    font-weight: 100;
+    font-size: 1.6em;
+    letter-spacing: 1px;
+}
+
+header h1{
+    font-family: 'Kreon',serif;
+    font-size: 3.8em;
+    font-weight: 400;
+    margin-bottom: 50px;
+}
+
+.red-blue{
+    display: flex;
+}
+
+.red-blue article{
+    flex-basis: 50%;
+}
+
+.red-blue img{
+    float: left;
+    margin: 50px 0px 10px 30px;
+}
+
+.red-blue h3{
+    text-transform: uppercase;
+    margin: 30px 10px;
+    font-size: 1.3em;
+}
+
+.red{
+    background: #F3464E;
+}
+
+.blue{
+    background: #31C7D8;
+}
+
+.red-blue p{
+ margin-right: 50px;
+}
+
+main{
+    margin: 30px;
+}
+
+main h1{
+    font-family: Kreon,serif;
+    font-size: 3.3em;
+    font-weight: 400;
+}
+
+main > p{
+    font-size: 1.4em;
+    font-weight: 400;
+    color: #858585;
+    margin: 40px 0px;
+    width: 800px;
+}
+
+main section{
+    display: flex;
+}
+
+main article{
+    border-right: 1px solid #E7E7E7;
+    padding: 30px;
+    color: black;
+}
+
+main article:last-child{
+    border: none;
+}
+
+main h3{
+    font-family: Kreon,serif;
+    font-size: 1.3em;
+    font-weight: bold;
+    margin: 20px 0px;
+}
+
+main div{
+    height: 130px;
+    background: #F4474F;
+    padding: 50px;
+}
+
+main div p{
+    display: inline-block;
+    font-family: Kreon,serif;
+    font-size: 2.2em;
+    margin: 5px 0 0 50px;
+}
+
+main button{
+    float: right;
+    border: none;
+    font-size: 1.1em;
+    font-weight: bold;
+    letter-spacing: 1px;
+    border-radius: 10px;
+    padding: 15px 20px;
+    color: #F4474F;
+    text-transform: uppercase;
+    background: white;
+}
+
+main button:hover{
+    color: black;
+    cursor: pointer;
+}
+
+footer{
+    text-align: center;
+}

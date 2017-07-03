@@ -1,0 +1,98 @@
+@font-face {
+    font-family: 'Sansita';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Sansita Regular'), local('Sansita-Regular'), url(https://fonts.gstatic.com/s/sansita/v1/OIg80uztPzTvmaigz6QbovY6323mHUZFJMgTvxaG2iE.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+    font-family: 'Sansita';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Sansita Regular'), local('Sansita-Regular'), url(https://fonts.gstatic.com/s/sansita/v1/hJSyxUQeTBqx_NJRx-g3LA.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+body{
+    font-family: 'Sansita',sans-serif;
+/*    font-size: 20px;*/
+/*    background: url("images/bg.jpg");*/
+/*    background-repeat: repeat;*/
+}
+body>header{
+    background: linear-gradient(to right, red, green, blue);
+    padding-bottom: 10px;
+    font-size: 2rem;
+    text-align: center;
+    color: #ffff00;
+}
+nav{
+    float: left;
+    color: black;
+    margin-top:  20px;
+    background-color: rgba(245, 230, 254, 0.9);
+    border: none;
+    border-radius: 10px;
+    font-size: 0.8rem;
+}
+nav header{
+    font-weight: bold;
+    text-decoration: underline;
+    text-align: center;
+}
+nav ul{
+    list-style: none;
+}
+nav ul li a::before{
+    content: url("images/a.png");
+    position: relative;
+    top: 5px;
+    right: 5px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+section{
+    margin-left: 20px;
+    display: inline-block;
+    width: 700px;
+    font-size: 0.8rem;
+}
+article{
+    margin-top: 20px;
+    padding: 10px;
+    background-color: rgba(245, 230, 254, 0.9);
+    border: none;
+    border-radius: 10px;
+}
+article header{
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: left;
+}
+article p:first-line{
+    font-style: italic;
+}
+article p:first-letter{
+    font-size: 2rem;
+    font-style: italic;
+}
+#webColors{
+    background-color: red;
+    color: #ffffff;
+}
+#RGBA{
+    background-color: green;
+    color: #ffffff;
+}
+#\#HSLHSV{
+    background-color: #800080;
+    color: #ffffff;
+}
+article footer a{
+    font-size: 0.7rem;
+    color: darkslategrey;
+}

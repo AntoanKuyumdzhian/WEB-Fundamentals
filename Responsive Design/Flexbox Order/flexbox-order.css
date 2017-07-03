@@ -1,0 +1,38 @@
+body{
+    display: flex;
+    flex-flow: row wrap;
+    font-weight: bold;
+    text-align: center;
+    padding: 30px;
+}
+body > *{
+    flex: 1 100%;
+    padding: 10px;
+}
+.header{
+    background: #FF6347;
+}
+.article{
+    background: #00BFFF;
+    text-align: left;
+}
+.aside1{
+    background: #FFD700;
+}
+.aside2{
+    background: #FF69B4;
+}
+.footer{
+    background: #90EE90;
+}
+@media all and  (min-width: 800px){
+    .article {  flex: 3 0;  }
+    .aside1 { order: 1; }
+    .article { order: 2; }
+    .aside2 { order: 3; }
+    .footer  { order: 4; }
+}
+@media all and (min-width: 600px){
+    aside{flex: 1 0;}
+}
+

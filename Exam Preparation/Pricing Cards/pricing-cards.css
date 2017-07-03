@@ -1,0 +1,70 @@
+@import url(https://fonts.googleapis.com/css?family=OpenSans:400,900);
+*{box-sizing: border-box}
+body{
+    background: #EAF0F1;
+    font-family: "Open Sans",sans-serif;
+    max-width: 1100px;
+}
+.container{
+    margin: 50px 50px;
+    display: flex;
+    flex-flow: row;
+    flex-wrap: nowrap;
+    width: 90%;
+    justify-content: space-between;
+}
+section{
+    border-radius: 15px;
+    background: #FFF;
+    text-align: center;
+    flex-basis: 32%;
+    box-shadow: 3px 6px 5px #D5DADB;
+    opacity: 0.7;
+}
+.container section:first-of-type button{
+    background: #93DDE8;
+}
+section div{
+    height: 15%;
+    margin: 15px auto;
+}
+img{
+    height: 80%;
+    width: auto;
+}
+h1{
+    text-transform: capitalize;
+    font-size: 22px;
+    margin: 30px auto;
+}
+.description{
+    font-size: 14px;
+    margin: 40px 15px;
+}
+.price{
+    display: block;
+    font-size: 1.5em;
+    font-weight: 400;
+    margin: 60px auto;
+    color: #FE4C00;
+}
+button{
+    border-radius: 30px;
+    border: none;
+    background: #FF4D00;
+    color: white;
+    font-size: 16px;
+    text-transform: uppercase;
+    padding: 15px 50px;
+    margin: 20px;
+}
+button:hover{
+    cursor: pointer;
+    box-shadow: 5px 10px 10px  rgba(0,0,0,0.05);
+}
+.container section:first-of-type .price{
+    color: black;
+}
+section:hover{
+    opacity: 1;
+}

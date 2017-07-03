@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css?family=Comfortaa:700|Open+Sans:400,700');
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+html{
+    font-size: 14px;
+    font-family: 'Comfortaa', sans-serif;
+    width: 1266px;
+}
+nav{
+    float: left;
+    width: 200px;
+    text-align: center;
+    color: #b1bfc6;
+}
+nav h1{
+    font-weight: bold;
+    font-size: 2rem;
+    text-align: center;
+    color: #333333;
+}
+nav img{
+    border-radius: 50%;
+}
+nav h5{
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+nav ul{
+    list-style: none;
+}
+nav ul li{
+    float: left;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 0.8rem;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #b1bfc6;
+}
+.fa{
+    font-size: 1rem;
+}
+nav ul li:hover{
+    color: black;
+    cursor: pointer;
+}
+main{
+    background: #f3f5f7;
+    margin-left: 200px;
+    padding: 40px;
+    color: #333333;
+}
+main header{
+    margin-top: 10px;
+}
+main header h1{
+    display: inline;
+}
+main header span{
+    color: #91a5af;
+}
+main header button{
+    background: #ff7739;
+    border: 2px solid #ff7739;
+    border-radius: 30px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-size: 0.8rem;
+    float: right;
+    padding: 8px 15px;
+}
+main header button:hover{
+    background: none;
+    color: #ff7739;
+    cursor: pointer;
+}
+section{
+    margin-top: 50px;
+}
+section header h4{
+    font-family: 'Open Sans', sans-serif;
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: 0.9rem;
+}
+section header h5{
+    text-transform: uppercase;
+    font-size: 0.8rem;
+}
+section div{
+    position: relative;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    box-sizing: border-box;
+    background: #ffffff;
+    box-shadow: 8px 6px 17px -1px rgba(0,0,0,0.26);
+    display: inline-block;
+    padding-top: 50px;
+    width: 300px;
+}
+section div button{
+    position: relative;
+    left: -16px;
+    top: -155px;
+    border: none;
+    border-radius: 15px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-size: 0.8rem;
+    padding: 5px 12px;
+}
+section div p{
+    margin-left: 20px;
+    margin-top: 0px;
+    text-transform: capitalize;
+    color: #384850
+}
+.rented button{
+    background: #b1bfc6;
+}
+.listed button{
+    background: #68bc69;
+}
+.draft button{
+    background: #91a5af;
+}

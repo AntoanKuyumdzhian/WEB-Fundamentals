@@ -1,0 +1,51 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:400,900);
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+main {
+    font-family: Lato,sans-serif;
+    font-size: 14px;
+    background: #DDDDDD;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+}
+section{
+    width: 400px;
+    height: 500px;
+    margin: 100px 15px;
+    background: #ffffff;
+    border: none;
+    border-radius: 5%;
+    box-shadow: 5px 5px 5px gray;
+    text-align: center;
+}
+img{
+    padding-top: 30px;
+    width: 30%;
+    height: auto;
+}
+h1{
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 30px 10px;
+}
+p{
+    font-size: 1.2em;
+    font-weight: 400;
+    color: #333333;
+    padding: 10px 10px;
+}
+button{
+    background: none;
+    border: 3px solid black;
+    border-radius: 30px;
+    padding: 15px 30px;
+    margin-top: 40px;
+}
+span{
+    font-weight: bold;
+}
+

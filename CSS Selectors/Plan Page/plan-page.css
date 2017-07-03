@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+html{
+    font-size: 14px;
+    font-family: 'Lato', sans-serif;
+}
+body{
+    background: linear-gradient(45deg,
+    rgba(253,149,192,1) 0%,
+    rgba(195,95,204,1) 38%,
+    rgba(175,104,241,1) 66%,
+    rgba(175,104,241,1) 84%,
+    rgba(168,125,255,1) 100%);
+}
+main{
+    background-color: #2D3154;
+    border: none;
+    border-radius: 20px;
+    width: 700px;
+    height: 500px;
+    margin-left: 200px;
+    margin-top: 50px;
+}
+.plan-types{
+    margin: 0 auto;
+    width: 700px;
+    height: 300px;
+}
+.cards{
+    list-style: none;
+}
+.card-type{
+    display: inline-block;
+    width: 180px;
+    height: 260px;
+    border: none;
+    border-radius: 15px;
+    background-color: #ffffff;
+    margin: 15px;
+}
+.title{
+    text-align: left;
+    color: #ffffff;
+    font-size: 3rem;
+    font-weight: bolder;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.price{
+    font-size: 3.2rem;
+    font-weight: bolder;
+    padding-left: 30px;
+    margin-bottom: 0px;
+}
+.price:first-letter{
+    font-size: 2.2rem;
+}
+.plan{
+    padding-left: 30px;
+    padding-top: 0;
+    font-size: 0.8rem;
+}
+.card-type button{
+    background: linear-gradient(45deg,
+    rgba(253,149,192,1) 0%,
+    rgba(195,95,204,1) 38%,
+    rgba(175,104,241,1) 66%,
+    rgba(175,104,241,1) 84%,
+    rgba(168,125,255,1) 100%);
+    font-size: 1rem;
+    color: #ffffff;
+    font-weight: bolder;
+    border: none;
+    height: 35px;
+    width: 35px;
+    border-radius: 30px;
+    display: block;
+    margin:  40px auto;
+}
+li#basic-plan{
+    background-color: #ffffff;
+}
+#basic-plan {
+    background: url("img/plan-background-basic.png") no-repeat;
+    background-size: 100%;
+}
+li#pro-plan{
+    background-color: #ffffff;
+}
+#pro-plan{
+    background: url("img/plan-background-pro.png") no-repeat;
+    background-size: 100%;
+}
+li#med-plan{
+    background-color: #ffffff;
+}
+#med-plan{
+    background: url("img/plan-background-med.png") no-repeat;
+    background-size: 100%;
+}
+.information{
+    color: #ffffff;
+    display: block;
+    margin-left: 30px;
+    width: 400px;
+}
+.plan-title{
+    text-transform: capitalize;
+    color:  #ffffff;
+    font-weight: 500;
+    font-size: 0.9rem;
+}
+.plan-descirption{
+    font-size: 0.8rem;
+}
+.next-step{
+    margin: 30px auto;
+}
+.continue{
+    margin: 50px auto;
+    display: block;
+    color:  #ffffff;
+    font-size: 1.1rem;
+    text-transform: capitalize;
+    background-color: #825EFA;
+    border: none;
+    border-radius: 8px;
+    padding-left: 25px;
+    padding-top: 10px;
+    padding-right: 25px;
+    padding-bottom: 10px;
+}
+.continue:hover{
+    background-color: #DD6C6C;
+}

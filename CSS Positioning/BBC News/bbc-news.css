@@ -1,0 +1,19 @@
+body{
+    width: 890px;
+    margin: 30px auto;
+    border: 2px solid #a5b2b3;
+    font-family: "Calibri Light", "Verdana", sans-serif;
+}
+article{
+    width: 205px;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 10px;
+    text-align: center;
+}
+img{
+    width: 100%;
+}
+img:hover{
+    opacity: 0.4;
+}

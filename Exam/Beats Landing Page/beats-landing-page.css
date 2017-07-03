@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,900');
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+main{
+    font-family: "Open Sans",sans-serif;
+    padding: 5px;
+}
+nav{
+    margin-top: 10px;
+}
+.menu{
+    list-style: none;
+    font-family: "Open Sans",sans-serif;
+    display: flex;
+    justify-content: center;
+}
+.menu li{
+    display: inline-block;
+    color: #BCBCBC;
+    font-size: 1rem;
+    padding: 10px 70px;
+}
+.menu a{
+    text-transform: uppercase;
+    text-decoration: none;
+    color:#AEAEAE;
+    font-size: 0.7rem;
+}
+.solo{
+    font-family: "Open Sans",sans-serif;
+    margin-top: 20px;
+
+}
+.solo article{
+    width: 30%;
+    text-align: left;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 50px;
+    margin-left: 150px;
+
+    font-size: 0.7rem;
+}
+.solo h1{
+    font-size: 3rem;
+    font-weight: 400;
+    padding: 30px 0px;
+}
+.solo-img{
+    display: inline-block;
+    float: right;
+    width: 50%;
+    vertical-align: top;
+    text-align: center;
+}
+.solo img{
+    margin: 0px auto;
+    width: 80%;
+}
+.solo button{
+    background: #FF0000;
+    border: none;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    margin-top: 30px;
+    color: white;
+}
+.solo:after{
+    content: '';
+    display: block;
+    height: 0;
+    clear: both;
+}
+.power {
+    background: white;
+    margin-top: 20px;
+}
+.power-img{
+    width: 50%;
+    display: inline-block;
+    float: left;
+}
+.power img{
+    width: 80%;
+}
+.power h1{
+    font-size: 3.5rem;
+    font-weight: 400;
+    padding: 10px;
+    text-align: center;
+}
+.power article{
+    display: inline-block;
+    float: right;
+    width: 50%;
+
+}
+.power h1, .power h5{
+    text-transform: uppercase;
+}
+.power h5{
+    text-align: right;
+    font-size: 0.8rem;
+    font-weight: 400;
+    padding-right: 80px;
+}
+.power article span:first-of-type{
+    font-weight: 900;
+}
+.power p{
+    padding: 60px;
+    font-size: 0.9rem;
+    text-align: left;
+}.price{
+    margin-left: 60px;
+    font-size: 1.5rem;
+    font-weight: 900;
+ }
+.power button{
+    background: #FF0000;
+    border: none;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    color: white;
+    margin-left: 20px;
+}
+button:hover{
+    cursor: pointer;
+}
+.give-life header{
+    background: #575757;
+    height: 100px;
+}

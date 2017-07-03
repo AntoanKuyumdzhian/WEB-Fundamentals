@@ -1,0 +1,106 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css');
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: Tahoma, Helvetica, sans-serif;
+    font-size: 13px;
+    background: #EAEAEA;
+}
+main{
+    width: 70%;
+    margin: 0 auto;
+}
+header{
+    background: #F1F1F1;
+    border-bottom: 1px dashed #D7D7D7;
+    padding: 20px;
+}
+header h1{
+    color: #6096D3;
+    font-size: 28px;
+    font-weight: 100;
+}
+.upper{
+    border-bottom: 1px dashed #D7D7D7;
+}
+h3{
+    font-size: 16px;
+}
+.upper p{
+    width: calc(100% - 195px);
+    display: inline-block;
+}
+.search{
+    width: 190px;
+    display: inline-block;
+    position: relative;
+    vertical-align: top;
+}
+.search label{
+    display: block;
+    font-weight: bold;
+}
+.search input{
+    width: 100%;
+    padding-left: 5px;
+    height: 25px;
+    line-height: 25px;
+    margin: 5px 0px;
+    border-radius: 4px;
+    border: 1px solid #CBCBCB;
+}
+.search::after{
+    font-family: FontAwesome;
+    content: '\f002';
+    position: absolute;
+    font-size: 20px;
+    top: 24px;
+    right: 20px;
+}
+.lower{
+    margin: 0px auto;
+    width: 100%;
+}
+.left{
+    width: 100px;
+    display: inline-block;
+    text-align: left;
+}
+.left input{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    height: 25px;
+    line-height: 25px;
+    border-radius: 3px;
+    border: 1px solid #CBCBCB;
+}
+.right{
+    width: 48%;
+    float: right;
+}
+.right label{
+    display: block;
+}
+.select{
+    width: 66%;
+    display: inline-block;
+}.select select{
+    width: 100%;
+ }
+.rooms{
+    display: inline-block;
+    width: 33%;
+}
+.rooms input{
+    width: 100%;
+}
+.dates{
+    width: 100%;
+}
+.dates div{
+    width: 45%;
+    margin: 0px;
+    display: inline-block;
+;
+}

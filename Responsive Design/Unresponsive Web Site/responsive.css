@@ -1,0 +1,34 @@
+@media screen and (max-width: 960px){
+    #wrapper {
+        width: 100%;
+    }
+}
+@media screen and (max-width: 780px){
+    #wrapper > header > nav > ul {
+        justify-content: space-around;
+    }
+}
+@media screen and (max-width: 640px){
+    body #wrapper > header h1 a{
+        justify-content: center;
+    }
+    #wrapper > header > nav > ul li{
+        flex-flow: column;
+        flex-basis: 100%;
+    }
+    body #wrapper > section{
+        width: 100%;
+    }
+    body #wrapper > aside{
+        width: 100%;
+    }
+    body #wrapper > aside div{
+        width: 50%;
+    }
+}
+@media screen and (max-width: 480px){
+    body #wrapper > aside div{
+        width: 100%;
+    }
+}
+

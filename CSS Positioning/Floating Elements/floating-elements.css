@@ -1,0 +1,28 @@
+button{
+    background-color: #708BEB;
+    border: none;
+    border-radius: 10px;
+    padding: 15px 30px;
+    text-shadow: 0 0 5px #ffffff;
+}
+.left{
+    float: left;
+    margin-right: 10px;
+}
+.right{
+    float: right;
+    margin-left: 10px;
+}
+.center{
+    display: block;
+    margin:  0 auto;
+}
+div.left{
+ margin: 0 auto;
+}
+div.right{
+    margin:  0 auto;
+}
+div.center{
+    margin: 0 auto;
+}
